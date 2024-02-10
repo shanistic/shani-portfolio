@@ -32,13 +32,15 @@
 
       > button {
         cursor: pointer;
+        border: 1px solid $color3;
         background-color: $color3;
         color: $color4;
         font: 600 1rem $text1;
         text-transform: uppercase;
         margin: 3rem;
         &:hover {
-          background-color: $color3_1;
+          color: $color3;
+          background-color: transparent;
         }
       }
     }

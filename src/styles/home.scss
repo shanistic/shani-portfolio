@@ -37,8 +37,10 @@
               color: $color1;
               padding: 1rem 2.5rem;
               transition: all 0.3s;
+              border: 1px solid $color3;
               &:hover {
-                background-color: $color3_1;
+                color: $color3;
+                background-color: transparent;
               }
             }
             &:last-of-type {
@@ -101,7 +103,7 @@
         height: 40vmax;
         background-color: $color3;
         position: absolute;
-        
+
         z-index: -1;
         border-radius: 50%;
       }
@@ -110,7 +112,7 @@
         width: 40vmax;
         object-fit: contain;
         height: 40vmax;
-        
+
         border-radius: 50%;
       }
     }
@@ -127,6 +129,6 @@
   }
 }
 
-.headName{
-  color:$color3;
+.headName {
+  color: $color3;
 }

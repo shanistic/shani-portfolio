@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-
+import resume from "../assets/Resume.pdf";
 const Header = ({ setMenuOpen, menuOpen }) => {
   return (
     <>
@@ -48,6 +48,9 @@ const NavContent = ({ setMenuOpen }) => (
       </a>
       <a onClick={() => setMenuOpen && setMenuOpen(false)} href="#contact">
         Contact
+      </a>
+      <a href={resume} download>
+        Resume
       </a>
     </div>
     <a href="mailto:shanisticdev@gmail.com">
