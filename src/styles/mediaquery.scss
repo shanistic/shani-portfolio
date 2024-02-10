@@ -282,8 +282,8 @@
   #contact {
     margin-top: 5rem;
     grid-template-columns: 1fr;
-    > aside {
-      display: none;
+    > section > form > h2 {
+      font-size: 2rem;
     }
   }
 }
