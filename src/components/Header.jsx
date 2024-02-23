@@ -28,9 +28,17 @@ export const HeaderPhone = ({ menuOpen, setMenuOpen }) => {
   );
 };
 
+const handleClick = (event) => {
+  event.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
+
 const NavContent = ({ setMenuOpen }) => (
   <>
-    <h2>SHANI.</h2>
+    <h2 onClick={handleClick}>SHANI</h2>
     <div>
       <a
         onClick={() => {
